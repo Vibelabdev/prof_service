@@ -5,7 +5,7 @@
 
 протестировать сервис можно по ссылке: https:ai-project-21.ru/docs
 
-для запуска сервиса необходим service_token для VK API, его просто получить из инструкции в этой статье https://smmplanner.com/blog/gaid-po-api-vk-kak-podkliuchit-i-ispolzovat/.
+для запуска сервиса необходим service_token VK API, его просто получить из инструкции в этой статье https://smmplanner.com/blog/gaid-po-api-vk-kak-podkliuchit-i-ispolzovat/.
 
 команды для запуска:
 
