@@ -1,22 +1,22 @@
 # Сервис анализа социальных сетей для профориентации молодежи  
 
 ## Описание задачи
+
 Разработайте сервис, который сможет анализировать активность пользователей в социальных сетях с целью определения их интересов, увлечений и потенциальных навыков для дальнейшего предложения наиболее подходящих профессий и образовательных путей. Сервис должен учитывать конфиденциальность данных и соответствовать нормативным требованиям по защите личной информации.
 
-протестировать сервис можно по ссылке: https:ai-project-21.ru/docs
+Протестировать сервис можно по ссылке: [ai-project-21.ru/docs](https://ai-project-21.ru/docs)
 
-для запуска сервиса необходим service_token VK API, его просто получить из инструкции в этой статье https://smmplanner.com/blog/gaid-po-api-vk-kak-podkliuchit-i-ispolzovat/.
+Для запуска сервиса необходим `service_token` для VK API, его можно получить, следуя инструкции в этой статье: [Гайд по API ВКонтакте](https://smmplanner.com/blog/gaid-po-api-vk-kak-podkliuchit-i-ispolzovat/).
 
-команды для запуска:
+### Команды для запуска
 
-`pip install -r requirements.txt`
+Запуск через pip:
 
-`uvicorn main:app --reload --port 4000`
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload --port 4000
 
-либо
+Запуск через docker:
 
-` docker build -t app .`
-
-`docker run -d -p 80:4000 app`
-
-
+docker build -t app .
+docker run -d -p 80:4000 app
